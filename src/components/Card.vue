@@ -22,7 +22,7 @@ const props = defineProps<Props>();
       <div class="card-body">
          <h4 class="card-title text-center">{{ product.title }}</h4>
          <small class="card-detail">{{ product.description }}</small>
-         <div class="card-price">{{ product.price }}$</div>
+         <div class="card-price">{{ product.price }}</div>
       </div>
    </RouterLink>
 </template>
